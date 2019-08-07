@@ -1,4 +1,5 @@
-let negociacao = new Negociacao(new Date(), 20, 300);
+import {Negociacao} from "../ts/models/Negociacao";
 
-negociacao._quantidade = 58;
+let negociacao = new Negociacao(new Date(), 40, 390);
+negociacao._quantidade = 38;
 console.log(negociacao._quantidade);
